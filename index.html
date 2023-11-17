@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Комментарии</title>
+</head>
+<body>
+  <main>
+    <section class="main">
+      <div class="main__container">
+        <form class="form" id="commentForm">
+          <div class="form__box">
+            <label for="commentName">Имя: <input class="form__input" type="text" id="commentName" required></label>
+            
+            <br>
+            <label for="commentText">Комментарий: <textarea class="form__input" id="commentText" required></textarea></label>
+            
+          </div>
+          <br>
+          <button class="form__button" type="button" onclick="postComment()">Отправить</button>
+        </form>
+      
+        <!-- Область для отображения комментариев -->
+        <div class="comments" id="commentSection"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Форма для добавления комментариев -->
+ 
+
+  <script src="/comments.js"></script>
+
+</body>
+</html>

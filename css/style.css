@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main__container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.form__box {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.form {
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.form__input {
+  padding: 15px;
+  height: 50px;
+  width: 100%;
+}
+.form__button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #141414;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.comments {
+  padding: 15px;
+  border: 1px solid #141414;
+  display: grid;
+  gap: 15px;
+}
+
+.comment__item {
+  background-color: #f0f0f0;
+  padding: 15px;
+  display: grid;
+  gap: 20px;
+}
+
+.comment__name {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 120%;
+
+}
+
+.comment__text {
+  font-size: 14px;
+  line-height: 120%;
+}
