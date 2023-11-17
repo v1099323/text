@@ -10,7 +10,7 @@ function postComment() {
       text: commentText.value
     };
 
-    fetch('http://localhost:3000/postComment', {
+    fetch('https://v1099323.github.io/text/postComment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -32,7 +32,7 @@ function postComment() {
 
 
 function getComments() {
-  fetch('http://localhost:3000/getComments')
+  fetch('https://v1099323.github.io/text/getComments')
     .then(response => response.json())
     .then(data => displayComments(data))
     .catch(error => console.error('Ошибка - 2:', error));
